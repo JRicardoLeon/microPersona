@@ -10,11 +10,7 @@ public interface PersonaService  {
 
     void savePersona(Persona persona);
 
-    Persona updatePersona(Persona persona);
-
     Boolean deletePersona(Integer id);
-
-    List<Persona> findAllPersona();
 
     Boolean isExistPersona(Persona persona);
 
